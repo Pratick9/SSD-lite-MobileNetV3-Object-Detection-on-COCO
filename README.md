@@ -8,7 +8,7 @@ This project demonstrates building, training, and evaluating an **SSD-lite Mobil
 
 - Backbone: MobileNetV3 (lightweight CNN)
 - Detection Head: SSD-lite (Single Shot MultiBox Detector lite)
-- Dataset: COCO 2017 (filtered 10% subset for faster experimentation)
+- Dataset: COCO 2017 (filtered 50% subset for faster experimentation)
 - Framework: PyTorch and torchvision
 - Evaluation: COCO metrics (mAP, precision, recall, per-class AP)
 - Visualization: Detection results with bounding boxes and confidence scores
@@ -21,7 +21,7 @@ This project demonstrates building, training, and evaluating an **SSD-lite Mobil
 2. Make sure COCO 2017 dataset (validation images and annotations) is uploaded or linked as Kaggle dataset.
 3. Run all notebook cells sequentially:
    - Data loading and filtering
-   - Model training (default 5 epochs on 10% data)
+   - Model training (default 5 epochs on 50% data)
    - Model evaluation with COCO API
    - Visualization of sample detections
 
