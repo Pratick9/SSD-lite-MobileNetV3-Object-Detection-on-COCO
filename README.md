@@ -38,7 +38,7 @@ This project demonstrates building, training, and evaluating an **SSD-lite Mobil
 
 ## Notes
 
-- The notebook uses a subset of the COCO dataset (10%) to reduce runtime and resource usage.
+- The notebook uses a subset of the COCO dataset (50%) to reduce runtime and resource usage.
 - For better results, consider extending training epochs or using the full dataset.
 - Make sure to adjust dataset paths if running outside Kaggle.
 
